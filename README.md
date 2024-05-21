@@ -15,6 +15,7 @@ Now save your print settings so you don't have to do this again!
 Next you want to navigate to Printer Settings > General. You should now see a Firmware option category. Change the options here to reflect the following screenshot.
 
 ![image](https://github.com/rowan-gray/EnderS3ProThumbnailEmbedder/assets/63951256/7fefc5c4-7184-4903-96ef-005672770629)
+
 This tells PrusaSlicer to add a 300x300 PNG image of the print to the outputted GCode which the python script will then transform into the correct format.
 
 ## Printer Settings > General
