@@ -1,5 +1,5 @@
-# Ender S3 Pro Thumbnail Embedder
-A python post processing script for PrusaSlicer to embed the thumbnail and print information into GCode in the correct format for the Ender S3 Pro.
+# Ender S1 Pro Thumbnail Embedder
+A python post processing script for PrusaSlicer to embed the thumbnail and print information into GCode in the correct format for the Ender S1 Pro.
 
 # Instructions for PrusaSlicer
 First, download the python file and save it in a safe location (such as `C:\Users\user\AppData\Roaming\PrusaSlicer\scripts\`).
@@ -28,7 +28,7 @@ Now navigate to Printer Settings > General. You now want to modify the Start G-c
 ;MAXY:{first_layer_print_max[1]}
 ;MAXZ:{first_layer_height * total_layer_count}
 ```
-These lines do not change the gcode actions in any way (they are merely comments). They allow the Ender S3 Pro to show the print information.
+These lines do not change the gcode actions in any way (they are merely comments). They allow the Ender S1 Pro to show the print information.
 Make sure you have the Printer Settings now too so you don't have to repeat these steps.
 
-That should be it. Try exporting a test print and see if your Ender S3 Pro shows the screenshot and print information.
+That should be it. Try exporting a test print and see if your Ender S1 Pro shows the screenshot and print information.
